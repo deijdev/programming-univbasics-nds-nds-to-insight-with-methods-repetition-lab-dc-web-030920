@@ -44,5 +44,5 @@ def total_gross(source)
 	    source[director_index] )
       director_index += 1
      end
-      total_gross_of_earnings
+    total_gross_of_earnings
 end
