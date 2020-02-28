@@ -43,6 +43,5 @@ def total_gross(source)
 	    source[director_index] )
       director_index += 1
  end
-  # returned by directors_totals, and add it to a running total. When done,	total_gross_of_earnings
-  # return the total	
+      total_gross_of_earnings
 end
