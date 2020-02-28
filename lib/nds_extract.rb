@@ -38,9 +38,8 @@ end
 def total_gross(source)
    total_gross_of_earnings = 0
     director_index = 0
-  # Should use methods:	
-  # 1. directors_totals: returns a Hash of { dir_name => gross }	  while director_index < source.size do
-  # 2. list_of_directors: names provides an Array of directors names (use	    total_gross_of_earnings += gross_for_director( source[director_index] )
+ 	  while director_index < source.size do
+	    total_gross_of_earnings += gross_for_director( source[director_index] )
   #	    director_index += 1
   # Visit each key (i.e. director name), look up the value in the hash	  end
   # returned by directors_totals, and add it to a running total. When done,	total_gross_of_earnings
